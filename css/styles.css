@@ -542,6 +542,11 @@ button {
     box-shadow: var(--shadow-sm);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* same as your navbar height */
+}
+
 .btn.secondary:hover {
     background-color: #6d28d9;  /* Darker purple */
     transform: translateY(-2px);
