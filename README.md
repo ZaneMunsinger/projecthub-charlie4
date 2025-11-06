@@ -2,7 +2,7 @@
 ## Team Name/Number: Charlie 4
 ## Team Members
 - Hedi Bouassida - peroute
-- Zane Munsinger - [GitHub Username]
+- Zane Munsinger - ZaneMunsinger
 ## Project Description
 Project hub is a platform connecting connecting companies to new talent with the opportunity for CS student to gain work experience and show their skills throught meaningful projects that companies value
 ## Pages Implemented
