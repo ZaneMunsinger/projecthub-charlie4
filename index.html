@@ -1,121 +1,101 @@
-<!doctype html>
-<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Connect — Project Hub</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
-  <header class="topbar" role="banner">
-    <div class="wrap">
-      <div class="brand">
-        <div class="logo"></div>
-        <div>Project Hub</div>
-      </div>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"></div>
+      <div>Project Hub</div>
 
-      <nav class="links" role="navigation">
+      <ul class="nav-links">
         <a href="#">Home</a>
         <a href="#about">About</a>
         <a href="#students">For Students</a>
         <a href="#companies">For Companies</a>
-        <a href="#" style="background:rgba(0,0,0,0.06);padding:6px 10px;border-radius:6px;">Login</a>
-      </nav>
+        <a href="#" >Login</a>
+      </ul>
     </div>
-  </header>
+  </nav>
 
 
 </body>
 <main>
-    <section class="hero" aria-label="Hero">
-      <div class="wrap">
-        <div class="left">
-          <h1>Connect — where students and companies collaborate</h1>
+    <section class="hero">
+      <div class="container">
+        <h1>Connect — where students and companies collaborate</h1>
+        <div class="hero-description">
+
           <p>Gain practical experience, build portfolios, and solve real problems while companies access skilled student teams.</p>
-          <div class="ctas">
-            <a class="btn primary" href="#">Get Started as Student</a>
-            <a class="btn secondary" href="#">Post a Project</a>
+          <div class="cta-button">
+            <a href="#"class="btn btn-primary">Get Started as Student</a>
+            <a href="#" class="btn btn-outline">Post a Project</a>
           </div>
         </div>
-        <div class="illustration" aria-hidden="true">
-          <img src="./images/illustration.png" alt="" style="width: 400px; height: 300px;">
-      </div>
     </section>
 
-    <section aria-labelledby="vp" class="center">
-      <h2 id="vp">Value Propositions</h2>
-      <div class="two-col" role="list">
-        <div class="card" role="listitem" id="students">
-          <h3>For Students</h3>
-          <ul>
-            <li>Hands-on projects to build your resume</li>
-            <li>Mentorship and networking</li>
-            <li>Portfolio-ready outcomes</li>
-            <li>Flexible time commitments</li>
-          </ul>
-        </div>
+    <section class="value-propositions">
+      <div class = "container">
+      <h2>Value Propositions</h2>
 
-    <div class="card" role="listitem" id="companies">
-          <h3>For Companies</h3>
-          <ul>
-            <li>Fresh ideas and student talent</li>
-            <li>Low-cost project support</li>
-            <li>Recruiting and internship pipeline</li>
-            <li>Support education and community</li>
-          </ul>
-        </div>
-      </div>
+        <div class="two-column" >
+          <div class="column">
+            <h3>For Students</h3>
+            <ul class="benefits-list">
+              <li>Hands-on projects to build your resume</li>
+              <li>Mentorship and networking</li>
+              <li>Portfolio-ready outcomes</li>
+              <li>Flexible time commitments</li>
+            </ul>
+          </div>
+        
+
+        <div class="column" >
+              <h3>For Companies</h3>
+              <ul class="benefits-list">
+                <li>Fresh ideas and student talent</li>
+                <li>Low-cost project support</li>
+                <li>Recruiting and internship pipeline</li>
+                <li>Support education and community</li>
+              </ul>
+            </div>
+          </div>
+          </div>
     </section>
 
-    <section aria-labelledby="how">
-      <div class="center">
-         <h2 id="how">How It Works</h2>
-        </div>
-          <div class="steps" role="list">
-            <div class="step" role="listitem">
-            <div class="num">1</div>
-            <div>Students join and browse projects</div>
-         </div>
-            <div class="step" role="listitem">
-            <div class="num">2</div>
-           <div>Companies post challenges</div>
-          </div>
-            <div class="step" role="listitem">
-            <div class="num">3</div>
-            <div>Teams collaborate to deliver solutions</div>
-          </div>
-        </div>
+    <section class="how-it-works">
+      <div class="container">
+      <h2>How It Works</h2>
+        
+      <div class="steps">
+        <div class="step">
+        <div class="step-number">1</div>
+          <h3>Sign Up</h3>
+          <p>Create your profile as a student or company.</p>
+        <div class="step-number">2</div>
+          <h3>Post & Discover</h3>
+          <p>Companies post projects, students find opportunities.</p>
+        
+      </div>
+    </div>
+    </div>
       </section>
     
-</main>
-    <section id="about">
-    <div class="center">
-        <h2>About Connect</h2>
-        <p style="max-width:700px;margin:0 auto;">
-        Connect (Project Hub) is a platform that links students with real-world projects from companies.
-        Our mission is to help students gain experience while giving companies access to creative and
-        motivated talent. We believe collaboration drives learning and innovation.
-        </p>
-    </div>
-</section>
 
 <footer>
-  <div class="wrap">
+  <div class="site-footer">
     <div class="footer-links">
       <a href="#">Terms</a>
       <a href="#">Privacy</a>
       <a href="#">Contact</a>
     </div>
     
-    <div class="social-icons">
-      <a href="https://facebook.com" target="_blank">Facebook</a>
-      <a href="https://twitter.com" target="_blank">Twitter</a>
-      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-      <a href="https://instagram.com" target="_blank">Instagram</a>
-    </div>
+    <p class="copyright">
+            &copy; 2025 Connect Platform. All rights reserved.
+        </p>
     
-    <p>&copy; 2025 Project Hub. All rights reserved.</p>
+  
   </div>
 </footer>
 </html>
