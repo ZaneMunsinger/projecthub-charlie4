@@ -19,7 +19,9 @@ Project hub is a platform connecting connecting companies to new talent with the
 ### Hedi Bouassida
 - Implemented landing page HTML structure
 - Created responsive navigation bar
-- [List other specific contributions]
+- implemented project page
+- added company logo
+- implemented student dashboard HTML structure
 ### Zane Munsinger
 - Designed and implemented color scheme
 - Created footer component
