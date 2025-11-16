@@ -21,6 +21,70 @@
         </div>
     </nav>
 
+    <main class="projects-main">
+        <div class="container">
+            <!---FILTER SIDEBAR-->
+            <div class="projects-layout">
+
+                <aside class="filters-sidebar">
+                    <h3>Filters</h3>
+
+                    <div class="filter-group">
+                        <h4>Search by Keyword</h4>
+                        <input type="search" placeholder="Project title, company...">
+                    </div>
+
+                    <div class="filter-group">
+                        <h4>Skills</h4>
+                        <div class="filter-checkboxes">
+                            <label class="checkbox-label"><input type="checkbox"> HTML</label>
+                            <label class="checkbox-label"><input type="checkbox"> CSS</label>
+                            <label class="checkbox-label"><input type="checkbox"> JavaScript</label>
+                            <label class="checkbox-label"><input type="checkbox"> Python</label>
+                            <label class="checkbox-label"><input type="checkbox"> Java</label>
+                            <label class="checkbox-label"><input type="checkbox"> React</label>
+                            <label class="checkbox-label"><input type="checkbox"> Node.js</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4>Duration</h4>
+                        <div class="filter-radios">
+                            <label class="radio-label"><input type="radio" name="duration" value="8"> 8 Weeks</label>
+                            <label class="radio-label"><input type="radio" name="duration" value="12"> 12 Weeks</label>
+                            <label class="radio-label"><input type="radio" name="duration" value="16"> 16 Weeks</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4>Compensation (Min)</h4>
+                        <div class="compensation-inputs">
+                            <span>$</span>
+                            <input type="number" placeholder="1000" min="0">
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-apply-filters">Apply Filters</button>
+                    <button class="btn btn-link btn-clear-filters">Clear All</button>
+                </aside>
+
+            <!---PAGANATION-->
+            <div class="pagination">
+                <button class="pagination-btn" disabled>Previous</button>
+                <div class="page-numbers">
+                    <span class="page-number active">1</span>
+                    <span class="page-number">2</span>
+                    <span class="page-number">3</span>
+                    <span class="page-ellipsis">...</span>
+                    <span class="page-number">7</span>
+                </div>
+                <button class="pagination-btn">Next</button>
+            </div>
+
+        </div> </main>
+
+
+
     <footer class="site-footer">
         <div class="container">
             <div class="footer-links">
